@@ -1,50 +1,51 @@
 import React from "react";
 import * as Survey from "survey-react";
-import * as widgets from "surveyjs-widgets";
+// import * as widgets from "surveyjs-widgets";
 import "survey-react/survey.css";
 
 //NEW FROM ME
 import { Component } from "react";
 import axios from "axios";
 import SurveyDone from "./SurveyDone";
-
-import "jquery-ui/themes/base/all.css";
-import "nouislider/distribute/nouislider.css";
-import "select2/dist/css/select2.css";
-import "bootstrap-slider/dist/css/bootstrap-slider.css";
-
-import "jquery-bar-rating/dist/themes/css-stars.css";
-
-import $ from "jquery";
-import "jquery-ui/ui/widgets/datepicker.js";
-import "select2/dist/js/select2.js";
-import "jquery-bar-rating";
-
-import "pretty-checkbox/dist/pretty-checkbox.css";
-
 import { json } from "../Surveys/surveyFraunhofer_json2";
 
+// import "jquery-ui/themes/base/all.css";
+// import "nouislider/distribute/nouislider.css";
+// import "select2/dist/css/select2.css";
+// import "bootstrap-slider/dist/css/bootstrap-slider.css";
+
+// import "jquery-bar-rating/dist/themes/css-stars.css";
+
+// import $ from "jquery";
+// import "jquery-ui/ui/widgets/datepicker.js";
+// import "select2/dist/js/select2.js";
+// import "jquery-bar-rating";
+
+// import "pretty-checkbox/dist/pretty-checkbox.css";
+
+
+
 //import "icheck/skins/square/blue.css";
-window["$"] = window["jQuery"] = $;
+// window["$"] = window["jQuery"] = $;
 //require("icheck");
 
-export { MyQuestion } from "../MyQuestion";
+// export { MyQuestion } from "../MyQuestion";
 
 Survey.StylesManager.applyTheme("default");
 
-//widgets.icheck(Survey, $);
-widgets.prettycheckbox(Survey);
-widgets.select2(Survey, $);
-widgets.inputmask(Survey);
-widgets.jquerybarrating(Survey, $);
-widgets.jqueryuidatepicker(Survey, $);
-widgets.nouislider(Survey);
-widgets.select2tagbox(Survey, $);
-//widgets.signaturepad(Survey);
-widgets.sortablejs(Survey);
-widgets.ckeditor(Survey);
-widgets.autocomplete(Survey, $);
-widgets.bootstrapslider(Survey);
+// //widgets.icheck(Survey, $);
+// widgets.prettycheckbox(Survey);
+// widgets.select2(Survey, $);
+// widgets.inputmask(Survey);
+// widgets.jquerybarrating(Survey, $);
+// widgets.jqueryuidatepicker(Survey, $);
+// widgets.nouislider(Survey);
+// widgets.select2tagbox(Survey, $);
+// //widgets.signaturepad(Survey);
+// widgets.sortablejs(Survey);
+// widgets.ckeditor(Survey);
+// widgets.autocomplete(Survey, $);
+// widgets.bootstrapslider(Survey);
 
 
 
